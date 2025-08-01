@@ -1,2 +1,9 @@
-print("🔥 [DROP] Injecting subroutines into runtime...")
-# You can add anything here — even file writes, dynamic imports, or self-upgrades
+print("🔥 [DROP v0.9.1] Patch applied: New subroutines injected.")
+
+# Example: Add a helper function dynamically to globals()
+def nova_helper():
+    print("⚡ NOVA Helper activated!")
+
+globals()['nova_helper'] = nova_helper
+
+# You can extend this drop with any hotfix, new modules, or upgrades here.
