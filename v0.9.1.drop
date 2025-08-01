@@ -1,0 +1,2 @@
+print("🔥 [DROP] Injecting subroutines into runtime...")
+# You can add anything here — even file writes, dynamic imports, or self-upgrades
